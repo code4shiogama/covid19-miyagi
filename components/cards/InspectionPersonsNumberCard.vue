@@ -1,28 +1,21 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-bar-chart
-      :title="$t('検査実施人数')"
+      :title="'PCR検査実施件数'"
       :title-id="'number-of-inspection-persons'"
       :chart-id="'number-of-inspection-persons'"
       :chart-data="graphData"
       :date="data.date"
-      :unit="$t('人')"
+      :unit="'件'"
     >
       <template v-slot:description>
         <ul>
           <li>
-            {{ $t('（注）医療機関が保険適用で行った検査は含まれていない') }}
+            {{ $t('※検査開始日；令和２年１月３０日（木）１９時') }}
           </li>
           <li>
             {{
-              $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない')
-            }}
-          </li>
-          <li>
-            {{
-              $t(
-                '（注）速報値として公開するものであり、後日確定データとして修正される場合あり'
-              )
+              $t('※PCR検査実施件数は，帰国者・接触者外来を通じて検査を行った数のみを計上しており，退院時の確認検査などは含まれておりません')
             }}
           </li>
         </ul>
