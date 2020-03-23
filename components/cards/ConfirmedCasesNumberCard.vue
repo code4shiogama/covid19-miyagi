@@ -7,7 +7,7 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
-      :url="'http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/020311.html'"
+      :url="'https://www.pref.miyagi.jp/soshiki/hohusom/covid-19.html'"
     />
   </v-col>
 </template>
