@@ -224,8 +224,8 @@
             {{ $t('GitHub リポジトリ') }}
           </a>
         </i18n>
-        <img src="/cfs/cfs_logo.jpg">
-        <img src="/cfs/sd_gibasachan.jpg">
+        <img src="/cfs/cfs_logo.jpg"/>
+        <img src="/cfs/sd_gibasachan.jpg"/>
       </p>
     </StaticCard>
   </div>
