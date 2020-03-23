@@ -12,7 +12,7 @@
       <br />
       {{
         $t(
-          '宮城県による公式情報と客観的な数値をわかりやすく伝えることで、美雨や技研にお住まいの方や、宮城県内に拠点を持つ企業の方、宮城県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '宮城県による公式情報と客観的な数値をわかりやすく伝えることで、宮城県にお住まいの方や、宮城県内に拠点を持つ企業の方、宮城県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
     </StaticCard>
@@ -177,7 +177,7 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
       >
         <a
-          href="https://portal.data.metro.tokyo.lg.jp/"
+          href="https://www.pref.miyagi.jp/soshiki/hohusom/covid-19.html"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
@@ -196,7 +196,7 @@
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/code4shiogama/covid19-miyagi"
             target="_blank"
             rel="noopener"
             place="githubRepo"
@@ -224,8 +224,8 @@
             {{ $t('GitHub リポジトリ') }}
           </a>
         </i18n>
-        <img src="/cfs/cfs_logo.jpg" . />
-        <img src="/cfs/sd_gibasachan.jpg" . />
+        <img src="/cfs/cfs_logo.jpg" alt="Code for Shiogama" />
+        <img src="/cfs/sd_gibasachan.jpg" alt="渚の妖精ぎばさちゃん" />
       </p>
     </StaticCard>
   </div>
