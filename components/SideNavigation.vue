@@ -13,12 +13,11 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.svg"
-            :alt="$t('宮城県(非公式)')"
+            :alt="'宮城県(非公式)'"
           />
           <div class="SideNavigation-HeaderText">
-            {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
-            }}
+            非公式新型コロナウイルス感染症<br />
+            対策サイト
           </div>
         </nuxt-link>
       </h1>
