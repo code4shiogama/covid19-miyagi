@@ -6,6 +6,7 @@
       :chart-id="'number-of-inspection-persons'"
       :chart-data="graphData"
       :date="data.date"
+      :url="'https://www.pref.miyagi.jp/site/covid-19/05.html'"
       :unit="'件'"
     >
       <template v-slot:description>

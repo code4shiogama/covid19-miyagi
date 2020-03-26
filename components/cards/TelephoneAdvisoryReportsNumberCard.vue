@@ -7,7 +7,7 @@
       :chart-data="contactsGraph"
       :date="Data.contacts.date"
       :unit="$t('件.reports')"
-      :url="'https://www.pref.miyagi.jp/uploaded/attachment/782356.pdf'"
+      :url="'https://www.pref.miyagi.jp/site/covid-19/05.html'"
     />
     <!-- 件.reports = 窓口相談件数 -->
   </v-col>

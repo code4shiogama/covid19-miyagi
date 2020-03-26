@@ -47,7 +47,7 @@
 
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
-          <a
+          <!-- <a
             href="https://line.me/R/ti/p/%40822sysfc"
             target="_blank"
             rel="noopener"
@@ -57,7 +57,7 @@
               <source srcset="/line.webp" type="image/webp" />
               <img src="/line.png" alt="LINE" />
             </picture>
-          </a>
+          </a> -->
           <a
             href="https://twitter.com/koi_zoom1"
             target="_blank"
@@ -69,7 +69,7 @@
               <img src="/twitter.png" alt="Twitter" />
             </picture>
           </a>
-          <a
+          <!-- <a
             href="https://www.facebook.com/tochokoho"
             target="_blank"
             rel="noopener"
@@ -79,7 +79,7 @@
               <source srcset="/facebook.webp" type="image/webp" />
               <img src="/facebook.png" alt="Facebook" />
             </picture>
-          </a>
+          </a> -->
           <a
             href="https://github.com/code4shiogama/covid19-miyagi"
             target="_blank"
@@ -140,7 +140,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('県内の最新感染動向'),
+          title: '宮城県内の最新感染動向',
           link: this.localePath('/')
         },
         // {
@@ -190,7 +190,7 @@ export default Vue.extend({
         // },
         {
           title: this.$t('宮城県公式新型コロナウイルス感染症関連情報'),
-          link: 'https://www.pref.miyagi.jp/soshiki/hohusom/covid-19.html'
+          link: 'https://www.pref.miyagi.jp/site/covid-19/'
         }
       ]
     }
