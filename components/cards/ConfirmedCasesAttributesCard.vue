@@ -7,7 +7,7 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'https://www.pref.miyagi.jp/soshiki/hohusom/covid-19.html'"
+      :url="'https://www.pref.miyagi.jp/site/covid-19/02.html'"
     />
   </v-col>
 </template>
