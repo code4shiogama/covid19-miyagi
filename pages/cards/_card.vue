@@ -103,7 +103,7 @@ export default {
         updatedAt = Data.inspections_summary.date
         break
       case 'number-of-inspection-persons':
-        title = this.$t('検査実施人数')
+        title = this.$t('PCR検査実施件数')
         updatedAt = Data.inspection_persons.date
         break
       case 'number-of-reports-to-covid19-telephone-advisory-center':
@@ -146,7 +146,7 @@ export default {
         ? `${url}/ogp/${this.$route.params.card}.png?t=${timestamp}`
         : `${url}/ogp/${this.$i18n.locale}/${this.$route.params.card}.png?t=${timestamp}`
     const description = `${this.updatedAt} | ${this.$t(
-      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、Code for Shiogamaが開設したものです。'
     )}`
 
     return {
@@ -163,9 +163,9 @@ export default {
           content:
             this.title +
             ' | ' +
-            this.$t('東京都') +
+            this.$t('宮城県') +
             ' ' +
-            this.$t('新型コロナウイルス感染症') +
+            this.$t('非公式新型コロナウイルス感染症') +
             this.$t('対策サイト')
         },
         {
