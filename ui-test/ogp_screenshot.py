@@ -32,7 +32,7 @@ for lang in ("ja", "en", "zh-cn", "zh-tw", "ko", "ja-basic"):
     for path, size in PATHS.items():
         driver.set_window_size(*size)
         driver.get(
-            "http://localhost:8000{}?ogp=true".format(
+            "https://miyagi.stopcovid19.jp{}?ogp=true".format(
                 path if lang == "ja" else "/{}{}".format(lang, path)
             )
         )
