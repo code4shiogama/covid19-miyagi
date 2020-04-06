@@ -250,14 +250,16 @@ export default Vue.extend({
       if (host) {
         permalink = location.protocol + '//' + location.host + permalink
       }
-        var dt = new Date();
-        var y = dt.getFullYear();
-        var m = ("00" + (dt.getMonth()+1)).slice(-2);
-        var d = ("00" + dt.getDate()).slice(-2);
-        var h = ("00" + dt.getHours()).slice(-2);
-        var result = y + m + d + h;
-        permalink += "&t=" + result;
       return permalink
+    },
+    timestr() {
+      const dt = new Date()
+      const y = dt.getFullYear()
+      const m = ('00' + (dt.getMonth() + 1)).slice(-2)
+      const d = ('00' + dt.getDate()).slice(-2)
+      const h = ('00' + dt.getHours()).slice(-2)
+      const result = y + m + d + h
+      return result
     },
     twitter() {
       const url =
@@ -269,6 +271,7 @@ export default Vue.extend({
         this.$t('対策サイト') +
         '&url=' +
         this.permalink(true) +
+        encodeURIComponent('&t=' + this.timestr()) +
         '&' +
         'hashtags=StopCovid19JP'
       window.open(url)
