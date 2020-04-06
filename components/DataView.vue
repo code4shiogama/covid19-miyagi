@@ -271,7 +271,7 @@ export default Vue.extend({
         this.$t('対策サイト') +
         '&url=' +
         this.permalink(true) +
-        encodeURIComponent('&t=' + this.timestr()) +
+        encodeURIComponent('?t=' + this.timestr()) +
         '&' +
         'hashtags=StopCovid19JP'
       window.open(url)
