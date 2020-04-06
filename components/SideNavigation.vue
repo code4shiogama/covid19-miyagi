@@ -148,7 +148,7 @@ export default Vue.extend({
           link: this.localePath('/about')
         },
         {
-          title: this.$t('宮城県公式新型コロナウイルス感染症関連情報'),
+          title: this.$t('宮城県非公式新型コロナウイルス感染症関連情報'),
           link: 'https://www.pref.miyagi.jp/site/covid-19/'
         }
       ]
