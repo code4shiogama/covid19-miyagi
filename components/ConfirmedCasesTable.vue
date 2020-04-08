@@ -54,6 +54,17 @@
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
             <div :class="$style.content">
+              <span>{{ $t('入院調整中') }}</span>
+              <span>
+                <strong>{{ 入院調整中 }}</strong>
+                <span :class="$style.unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li :class="[$style.box, $style.deceased]">
+          <div :class="$style.pillar">
+            <div :class="$style.content">
               <span>{{ $t('死亡') }}</span>
               <span>
                 <strong>{{ 死亡 }}</strong>
@@ -101,6 +112,10 @@ export default Vue.extend({
       required: true
     },
     重症: {
+      type: Number,
+      required: true
+    },
+    入院調整中: {
       type: Number,
       required: true
     },
