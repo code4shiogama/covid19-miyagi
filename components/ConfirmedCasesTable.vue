@@ -14,6 +14,17 @@
         </div>
       </div>
       <ul :class="$style.group">
+        <li :class="[$style.box, $style.deceased]">
+          <div :class="$style.pillar">
+            <div :class="$style.content">
+              <span>{{ $t('入院調整中') }}</span>
+              <span>
+                <strong>{{ 入院調整中 }}</strong>
+                <span :class="$style.unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
+        </li>
         <li :class="[$style.box, $style.parent, $style.hospitalized]">
           <div :class="$style.pillar">
             <div :class="$style.content">
@@ -50,17 +61,6 @@
               </div>
             </li>
           </ul>
-        </li>
-        <li :class="[$style.box, $style.deceased]">
-          <div :class="$style.pillar">
-            <div :class="$style.content">
-              <span>{{ $t('入院調整中') }}</span>
-              <span>
-                <strong>{{ 入院調整中 }}</strong>
-                <span :class="$style.unit">{{ $t('人') }}</span>
-              </span>
-            </div>
-          </div>
         </li>
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
