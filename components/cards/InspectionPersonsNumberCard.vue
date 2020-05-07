@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <time-bar-chart
-      :title="'PCR検査実施件数'"
+      :title="$t('PCR検査実施件数')"
       :title-id="'number-of-inspection-persons'"
       :chart-id="'number-of-inspection-persons'"
       :chart-data="graphData"
@@ -12,10 +12,14 @@
       <template v-slot:description>
         <ul>
           <li>
-            ※検査開始日；令和２年１月３０日（木）１９時
+            {{ $t('※検査開始日；令和２年１月３０日（木）１９時') }}
           </li>
           <li>
-            ※PCR検査実施件数は，帰国者・接触者外来を通じて検査を行った数のみを計上しており，退院時の確認検査などは含まれておりません。
+            {{
+              $t(
+                '※PCR検査実施件数は，帰国者・接触者外来を通じて検査を行った数のみを計上しており，退院時の確認検査などは含まれておりません。'
+              )
+            }}
           </li>
         </ul>
       </template>

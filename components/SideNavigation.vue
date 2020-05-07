@@ -16,8 +16,8 @@
             :alt="'宮城県(非公式)'"
           />
           <div class="SideNavigation-HeaderText">
-            非公式新型コロナウイルス感染症<br />
-            対策サイト
+            {{ $t('非公式新型コロナウイルス感染症') }}<br />
+            {{ $t('対策サイト') }}
           </div>
         </nuxt-link>
       </h1>
@@ -38,10 +38,10 @@
           v-if="this.$i18n.locales.length > 1"
           class="SideNavigation-Language"
         >
-          <!-- <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
+          <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
             {{ $t('多言語対応選択メニュー') }}
           </label>
-          <LanguageSelector /> -->
+          <LanguageSelector />
         </div>
       </nav>
 
@@ -114,7 +114,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
-// import LanguageSelector from '@/components/LanguageSelector.vue'
+import LanguageSelector from '@/components/LanguageSelector.vue'
 import MenuList from '@/components/MenuList.vue'
 
 type Item = {
@@ -126,7 +126,7 @@ type Item = {
 
 export default Vue.extend({
   components: {
-    // LanguageSelector,
+    LanguageSelector,
     MenuList
   },
   props: {
@@ -140,7 +140,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: '宮城県内の最新感染動向',
+          title: this.$t('宮城県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
