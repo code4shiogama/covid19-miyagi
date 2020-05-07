@@ -40,7 +40,7 @@
               <div :class="$style.pillar">
                 <div :class="$style.content">
                   <!-- eslint-disable vue/no-v-html-->
-                  <span v-html="$t('軽症・<br />中等症')" />
+                  <span v-html="$t('医療機関')" />
                   <!-- eslint-enable vue/no-v-html-->
                   <span>
                     <strong>{{ 軽症中等症 }}</strong>
@@ -52,7 +52,7 @@
             <li :class="[$style.box, $style.short, $style.severe]">
               <div :class="$style.pillar">
                 <div :class="$style.content">
-                  <span>{{ $t('重症') }}</span>
+                  <span>{{ $t('その他※') }}</span>
                   <span>
                     <strong>{{ 重症 }}</strong>
                     <span :class="$style.unit">{{ $t('人') }}</span>
@@ -76,7 +76,7 @@
         <li :class="[$style.box, $style.recovered]">
           <div :class="$style.pillar">
             <div :class="$style.content">
-              <span>{{ $t('退院') }}</span>
+              <span>{{ $t('退院・療養解除') }}</span>
               <span>
                 <strong>{{ 退院 }}</strong>
                 <span :class="$style.unit">{{ $t('人') }}</span>
