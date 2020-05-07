@@ -11,11 +11,11 @@ type DataType = {
           value: number
           children: [
             {
-              attr: '軽症・中等症'
+              attr: '医療機関'
               value: number
             },
             {
-              attr: '重症'
+              attr: 'その他'
               value: number
             }
           ]
