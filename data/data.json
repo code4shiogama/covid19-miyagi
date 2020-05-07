@@ -2999,11 +2999,11 @@
                         "children": [
                             {
                                 "attr": "軽症・中等症・不明",
-                                "value": 14
+                                "value": 10
                             },
                             {
                                 "attr": "重症",
-                                "value": 0
+                                "value": 4
                             }
                         ]
                     },
