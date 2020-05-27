@@ -7,8 +7,8 @@
       :chart-data="graphData"
       :date="data.date"
       :url="'https://www.pref.miyagi.jp/site/covid-19/05.html'"
-      :unit="'件'"
-    >
+      :unit="$t('件.tested')"
+      >
       <template v-slot:description>
         <ul>
           <li>
@@ -24,6 +24,7 @@
         </ul>
       </template>
     </time-bar-chart>
+    <!-- 件.tested = 窓口相談件数 -->
   </v-col>
 </template>
 
