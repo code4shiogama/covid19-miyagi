@@ -8,7 +8,7 @@
       :date="data.date"
       :url="'https://www.pref.miyagi.jp/site/covid-19/05.html'"
       :unit="$t('件.tested')"
-      >
+    >
       <template v-slot:description>
         <ul>
           <li>
