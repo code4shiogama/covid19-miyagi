@@ -177,12 +177,12 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
       >
         <a
-          href="https://www.pref.miyagi.jp/soshiki/hohusom/covid-19.html"
+          href="https://www.pref.miyagi.jp/site/covid-19/"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
         >
-          {{ $t('宮城県オープンデータカタログサイト') }}
+          {{ $t('宮城県新型コロナウイルス感染症対策サイト') }}
         </a>
       </i18n>
     </StaticCard>
