@@ -31005,32 +31005,32 @@
             }
         ]
     },
-    "lastUpdate": "2021\/01\/09 17:00",
+    "lastUpdate": "2021\/01\/15 17:00",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 369,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 2560,
+                "value": 2813,
                 "children": [
                     {
                         "attr": "入院・療養中",
-                        "value": 236,
+                        "value": 340,
                         "children": [
                             {
                                 "attr": "軽症・中等症・不明",
-                                "value": 95
+                                "value": 125
                             },
                             {
                                 "attr": "重症",
-                                "value": 141
+                                "value": 195
                             }
                         ]
                     },
                     {
                         "attr": "退院",
-                        "value": 2125
+                        "value": 2311
                     },
                     {
                         "attr": "死亡",
@@ -31038,7 +31038,7 @@
                     },
                     {
                       "attr": "入院調整中",
-                      "value": 182
+                      "value": 165
                     }
                 ]
             }
