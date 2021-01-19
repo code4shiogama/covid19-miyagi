@@ -32260,33 +32260,33 @@
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 2813,
+                "value": 2949,
                 "children": [
                     {
                         "attr": "入院・療養中",
-                        "value": 340,
+                        "value": 413,
                         "children": [
                             {
                                 "attr": "軽症・中等症・不明",
-                                "value": 125
+                                "value": 143
                             },
                             {
                                 "attr": "重症",
-                                "value": 195
+                                "value": 270
                             }
                         ]
                     },
                     {
                         "attr": "退院",
-                        "value": 2311
+                        "value": 2352
                     },
                     {
                         "attr": "死亡",
-                        "value": 17
+                        "value": 20
                     },
                     {
                       "attr": "入院調整中",
-                      "value": 165
+                      "value": 164
                     }
                 ]
             }
