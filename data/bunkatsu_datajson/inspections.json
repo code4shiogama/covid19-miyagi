@@ -893,42 +893,43 @@
             }
         ]
     },
-    "lastUpdate": "2021\/01\/15 17:00",
+    "lastUpdate": "2021\/01\/22 17:00",
     "main_summary": {
         "attr": "¸¡ºº¼Â»Ü¿Í¿ô",
         "value": 369,
         "children": [
             {
                 "attr": "ÍÛÀ­´µ¼Ô¿ô",
-                "value": 2984,
+                "value": 3141,
                 "children": [
                     {
                         "attr": "Æþ±¡¡¦ÎÅÍÜÃæ",
-                        "value": 409,
+                        "value": 411,
                         "children": [
                             {
                                 "attr": "·Ú¾É¡¦ÃæÅù¾É¡¦ÉÔÌÀ",
-                                "value": 129
+                                "value": 132
                             },
                             {
                                 "attr": "½Å¾É",
-                                "value": 280
+                                "value": 279
                             }
                         ]
                     },
                     {
                         "attr": "Âà±¡",
-                        "value": 2408
+                        "value": 2619
                     },
                     {
                         "attr": "»àË´",
-                        "value": 21
+                        "value": 22
                     },
                     {
                       "attr": "Æþ±¡Ä´À°Ãæ",
-                      "value": 146
+                      "value": 89
                     }
                 ]
             }
         ]
     }
+}
