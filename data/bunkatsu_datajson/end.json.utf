@@ -2577,7 +2577,7 @@
         ]
     },
     "inspection_persons": {
-        "date": "2021\/07\/09 18:00",
+        "date": "2021\/07\/10 18:00",
         "labels": [
           "2020-02-01T08:00:00.000Z",
           "2020-02-02T08:00:00.000Z",
@@ -3657,32 +3657,32 @@
             }
         ]
     },
-    "lastUpdate": "2021\/07\/10 9:00",
+    "lastUpdate": "2021\/07\/11 9:00",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 369,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 9272,
+                "value": 9298,
                 "children": [
                     {
                         "attr": "入院・療養中",
-                        "value": 127,
+                        "value": 139,
                         "children": [
                             {
                                 "attr": "軽症・中等症・不明",
-                                "value": 43
+                                "value": 49
                             },
                             {
                                 "attr": "重症",
-                                "value": 84
+                                "value": 90
                             }
                         ]
                     },
                     {
                         "attr": "退院",
-                        "value": 9039
+                        "value": 9048
                     },
                     {
                         "attr": "死亡",
@@ -3690,7 +3690,7 @@
                     },
                     {
                       "attr": "入院調整中",
-                      "value": 15
+                      "value": 20
                     }
                 ]
             }
